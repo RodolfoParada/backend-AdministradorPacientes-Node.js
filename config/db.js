@@ -1,4 +1,4 @@
- import mongoose from 'mongoose';
+//  import mongoose from 'mongoose';
 
 //  const conectarDB = async () => {
 //       try {
@@ -34,4 +34,4 @@ import mongoose from 'mongoose';
       }
   };
 
-//  export default conectarDB;
+  export default conectarDB;
