@@ -21,7 +21,7 @@ var transport = nodemailer.createTransport({
     text: 'Comprueba tu cuenta en APV',
     html: `<p>Hola: ${nombre}, comprueba tu cuenta en APV</p>
            <p>Tu Cuenta ya esta lista, solo debes comprobarla en el siguiente enlace:
-           <a href="${process.env.FRONTEND_URL}/${token}">Comprobar cuenta</a></p>
+           <a href="${process.env.FRONTEND_URL}/confirmar/${token}">Comprobar cuenta</a></p>
            <p>Si tu no creaste esta cuenta, puedes ignorar este mensaje</p>
     `
  });
