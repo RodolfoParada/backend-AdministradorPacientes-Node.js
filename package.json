@@ -9,6 +9,11 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+
+    "engines": {
+      "node": "18.x"
+    },
+
   "author": "Rodolfo Parada",
   "license": "ISC",
   "description": "Aprendiendo JS Fullstack",
